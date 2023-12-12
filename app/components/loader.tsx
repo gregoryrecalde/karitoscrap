@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Loader: React.FC = () => (
   <div className="loader-container">
-    <Image src="/img/logo.png" alt="DynamicOps Loader" 
+    <Image priority src="/img/logo.png" alt="DynamicOps Loader" 
   width={150}
   height={1} className="loader-logo" />
     <div className="loader-line"></div>
