@@ -35,55 +35,55 @@ const links = [
   {
     href: '',
     title: 'Álbum Comunión 1',
-    imageUrl: '/img/product.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product.png',
     price: '85.00',
     categoriaId: 2
   },
   {
     href: '',
     title: 'Álbum Comunión 2',
-    imageUrl: '/img/product-2.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-2.png',
     price: '85.00',
     categoriaId: 2
   },
   {
     href: '',
     title: 'Álbum Comunión 3',
-    imageUrl: '/img/product-3.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-3.png',
     price: '80.00',
     categoriaId: 2
   },
   {
     href: '',
     title: 'Álbum Comunión 4',
-    imageUrl: '/img/product-4.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-4.png',
     price: '85.00',
     categoriaId: 2
   }, {
     href: '',
     title: 'Pack Stickers 1',
-    imageUrl: '/img/product-5.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-5.png',
     price: '85.00',
     categoriaId: 3
   },
   {
     href: '',
     title: 'Pack Stickers 2',
-    imageUrl: '/img/product-6.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-6.png',
     price: '85.00',
     categoriaId: 3
   },
   {
     href: '',
     title: 'Pack Stickers 3',
-    imageUrl: '/img/product-7.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-7.png',
     price: '80.00',
     categoriaId: 3
   },
   {
     href: '',
     title: 'Pack Stickers 4',
-    imageUrl: '/img/product-8.png',
+    imageUrl: 'https://cdn.freeaspect.com/karitoscrap/product-8.png',
     price: '85.00',
     categoriaId: 1
   },
@@ -140,7 +140,7 @@ const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
         <Link href="/" >
           <Image
               className="relative"
-              src="/img/logo.png"
+              src="https://cdn.freeaspect.com/karitoscrap/logo.png"
               alt="Logo"
               width={240}
               height={64}
