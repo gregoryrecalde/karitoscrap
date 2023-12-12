@@ -47,7 +47,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, imageUrl, price }
           
         <h2>{title}</h2>
         {imageUrl && (
-          <Image src={imageUrl} alt={title} width={400} height={300} />
+          <Image priority src={imageUrl} alt={title} width={400} height={300} />
         )}
         <p>{price}</p>
         </div>
