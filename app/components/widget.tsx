@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 const WidgetComponent = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -18,14 +17,11 @@ const WidgetComponent = () => {
   return (
     <div className="widget rounded-2xl widget-animation flex items-center justify-center">
       {images.map((img, index) => (
-        <Image
+        <img
           key={index}
           className={`absolute transition-opacity duration-1000 ${index === imageIndex ? 'opacity-100' : 'opacity-0'}`}
           src={img}
           alt={`image-${index}`}
-          width={1}
-          height={1}
-          unoptimized
           priority
         />
       ))}
