@@ -23,8 +23,9 @@ const WidgetComponent = () => {
           className={`absolute transition-opacity duration-1000 ${index === imageIndex ? 'opacity-100' : 'opacity-0'}`}
           src={img}
           alt={`image-${index}`}
-          width={400}
-          height={64}
+          width={1}
+          height={1}
+          unoptimized
           priority
         />
       ))}
