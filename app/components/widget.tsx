@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const WidgetComponent = () => {
   const [imageIndex, setImageIndex] = useState(0);
-  const images = ['/img/promo_1.png', '/img/promo_2.png', '/img/promo_3.png', '/img/promo_4.png'];
+  const images = ['https://cdn.freeaspect.com/karitoscrap/promo_1.png', 'https://cdn.freeaspect.com/karitoscrap/promo_2.png', 'https://cdn.freeaspect.com/karitoscrap/promo_3.png', 'https://cdn.freeaspect.com/karitoscrap/promo_4.png'];
 
   useEffect(() => {
     const interval = setInterval(() => {
